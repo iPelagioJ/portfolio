@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+}
+h1{
+    text-align: center;
+}
+.namebox {
+    background-color: bisque;
+    width: 400px;
+    height: 200px;
+  }
+  .navbar ul{
+    list-style: none;
+    background-color: antiquewhite;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+  }
+  .navbar a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+  }
+  .navbar a:hover{
+    background-color: rgb(253, 220, 177);
+  }
+  .navbar li{
+    float: left;
+  }
