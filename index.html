@@ -1,16 +1,13 @@
 <!DOCTYPE HTML>
-
 <html>
+  <head>
+    <title>Jason Pelagio</title>
+    <link rel="stylesheet" href="style.css"/>
 
-<head>
-<title>Jason Pelagio</title>
-<link rel="stylesheet" href="style.css"
-
-
-
-
-<body>
-  <h1>Welcome to my website!</h1>
+     <!--script for type writing effect-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body>
     <nav class="navbar">
       <ul>
         <li><a href="">About me</a></li>
@@ -18,11 +15,23 @@
       </ul>
     </nav>
 
-     
-      <div class="namebox">
-  <h2>Hi I am Jason Pelagio</h2>
-      </div>
- 
+      <!--div class for autotype thingy-->
+    <div class="container"> 
+      <h1>Welcome! <span class="autotype"></span></h1>
+    </div>
+    
+    <!--type writing effect config-->
+    <script>
+      var typed = new Typed(".autotype", {
+        strings: ["To my website", "To my portfolio"],
+        typeSpeed: 90,
+        backSpeed: 50,
+        loop: true
+      });
+    </script>
+
+    <div class="namebox">
+      <h2>Hi I am Jason Pelagio</h2>
+    </div>
   </body>
-</head>
 </html>

@@ -2,13 +2,19 @@ body {
     margin: 0px;
 }
 h1{
-    text-align: center;
+  color:rgb(0, 0, 0);
+  font-size: 70px;
+}
+h2{
+  text-align: center;
 }
 .namebox {
     background-color: bisque;
     width: 400px;
     height: 200px;
   }
+
+/*navigation bar*/
   .navbar ul{
     list-style: none;
     background-color: antiquewhite;
@@ -25,8 +31,24 @@ h1{
     text-align: center;
   }
   .navbar a:hover{
-    background-color: rgb(253, 220, 177);
+    background-color: rgb(253, 252, 177);
   }
   .navbar li{
     float: left;
   }
+
+  .container {
+    width: 100%;
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+}
+
+/*auto typed config*/
+.autotype{
+  color: rgb(241, 240, 144);
+}
+
+
