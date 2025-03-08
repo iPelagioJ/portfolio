@@ -1,20 +1,34 @@
 body {
     margin: 0px;
+    background-color:#f5f5dc;
+  
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
 }
+
 h1{
   color:rgb(0, 0, 0);
   font-size: 70px;
 }
+
 h2{
+  font-size: 60px;
   text-align: center;
 }
-.namebox {
-    background-color: bisque;
-    width: 400px;
-    height: 200px;
-  }
+h3{
+  font-size: 35px;
+}
+p{
+  text-align: center;
+}
+h4{
+  font: 60px;
+  text-align: center;
+}
 
-/*navigation bar*/
   .navbar ul{
     list-style: none;
     background-color: antiquewhite;
@@ -43,12 +57,46 @@ h2{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: beige;
+  background-color: #f5f5dc;
 }
 
-/*auto typed config*/
+
 .autotype{
-  color: rgb(241, 240, 144);
+  color: rgb(197, 196, 107);
 }
 
+
+.namecard {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+  height: 50vh;
+  display: flex;  
+  justify-content: center;
+  background:#f8f8c5;
+ margin: auto;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.namecardcontainer {
+  padding: 2px 16px;
+  
+}
+
+.proglangcard{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+  height: 50vh;
+  justify-content: center;
+  background:#f8f8c5;
+ margin: left;
+ text-align: center;
+}
 
