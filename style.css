@@ -1,3 +1,8 @@
+img{
+  display: block;
+  max-width: 100%;
+}
+
 body {
     margin: 0px;
     background-color:#f5f5dc;
@@ -76,6 +81,7 @@ h4{
   justify-content: center;
   background:#f8f8c5;
  margin: auto;
+ min-width: 40vh;
 }
 
 .card:hover {
@@ -84,19 +90,31 @@ h4{
 
 
 .namecardcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 2px 16px;
-  
+ 
 }
+
 
 .proglangcard{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 40%;
+  width: 100%;
   border-radius: 5px;
-  height: 50vh;
+  height: 30vh;
   justify-content: center;
   background:#f8f8c5;
  margin: left;
  text-align: center;
+
 }
 
+.proglangcontainer{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
