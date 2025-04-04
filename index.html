@@ -1,61 +1,50 @@
 <!DOCTYPE HTML>
 <html>
-  <head>
+<head>
     <title>Jason Pelagio</title>
     <link rel="stylesheet" href="style.css"/>
-   
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-     <!--script for type writing effect-->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <meta name="navbar" content="Navigations links">
+</head>
+<body>
 
-    <meta name ="navbar" content="Navigations links">
-  </head>
-  <body>
-
-    <nav class="navbar">
-      <ul>
+<nav class="navbar">
+    <ul>
         <li><a href="#about">About me</a></li>
-        <li><a href="">Contact me</a></li>
-      </ul>
-    </nav>
+        <li><a href="contactme.html">Contact me</a></li>
+    </ul>
+</nav>
 
-      <!--autotype thingy container-->
-    <div class="container"> 
-      <h1>Welcome! <span class="autotype"></span></h1>
-    </div>
-    
-    <!--type writing effect config-->
-    <script>
-      var typed = new Typed(".autotype", {
+<div class="container"> 
+    <h1>Welcome! <span class="autotype"></span></h1>
+</div>
+
+<script>
+    var typed = new Typed(".autotype", {
         strings: ["To my website", "To my portfolio"],
         typeSpeed: 90,
         backSpeed: 50,
         loop: true
-      });
-    </script>
+    });
+</script>
 
 <h2 id="about">About Me</h2>
 
-    <!--Cards-->
-    <div class="namecard">
+<div class="namecard">
     <div class="namecardcontainer">
-      <h3><b>Jason Pelagio</b></h3>
-      <p> Aspiring Developer</p>
-      <p>An aspiring developer that is still learning about website development and android mobile development </p>
-      <img id="mypic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFv8yKLUE-rGAPYj41Bigfne3zUWW-TD0Z7A&s" width="150" height="150">
+        <h3><b>Jason Pelagio</b></h3>
+        <p>Aspiring Developer</p>
+        <p>An aspiring developer that is still learning about website development and android mobile development</p>
+        <img id="mypic" src="Images/jason.png" width="150" height="150">
     </div>  
-    </div>
+</div>
 
-    <h4> My Programming languages</h4>
-
-    <div class="proglangcard">
-      <div class="proglangcontainer">
-       <img src="Images/C_Logo.png" width="250px" height="250px">
-       <img src="Images/java.png" width="250px" height="250px">
-      </div>  
-      </div>
-  
-      <h5> My certifactions</h5>
-  </body>
+<div class="buttoncontainer">
+    <a href="techstack.html">
+        <button class="techstackbuttonstyle"> My Programming languages</button>
+    </a>
+</div>
+<h4> My certifications</h4>
+</body>
 </html>
