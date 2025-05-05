@@ -3,187 +3,20 @@ img {
   max-width: 100%;
 }
 
-body {
-  margin: 0px;
-  background-color: #f5f5dc;
-  font-family: "Quicksand", sans-serif;
+.montserrat {
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
 }
 
-h1 {
-  color: rgb(0, 0, 0);
-  font-size: 70px;
-}
-
-h2 {
-  font-size: 60px;
-  text-align: center;
-}
-
-h3 {
-  font-size: 35px;
-}
-
-p {
-  text-align: center;
-}
-
-h4 {
-  font: 60px;
-  text-align: center;
-}
-
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-}
-
-.navbar ul {
-  list-style: none;
-  background-color: #6B8E23;
-  padding: 0px;
+body {
   margin: 0px;
-  overflow: hidden;
-}
-
-.navbar a {
-  color: white;
-  text-decoration: none;
-  padding: 15px;
-  display: block;
-  text-align: center;
-}
-
-.navbar a:hover {
-  background-color: #4E6B1F;
-}
-
-.navbar li {
-  float: left;
-}
-
-.container {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: #f5f5dc;
-  margin-top: 60px; 
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
-.autotype {
-  color: rgb(197, 196, 107);
-}
 
-.namecard {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 40%;
-  border-radius: 5px;
-  height: 50vh;
-  display: flex;  
-  justify-content: center;
-  background: #f8f8c5;
-  margin: auto;
-  min-width: 40vh;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.namecardcontainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 2px 16px;
-}
-
-.proglangcard {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 100%;
-  border-radius: 5px;
-  height: 30vh;
-  justify-content: center;
-  background: #f8f8c5;
-  margin: left;
-  text-align: center;
-}
-
-.proglangcontainer {
-  display: flex; 
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-}
-
-.buttoncontainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-}
-
-.techstackbuttonstyle {
-  background-color: #6B8E23;
-  color: white;
-  border: none;
-  border-radius: 25px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.techstackbuttonstyle:hover {
-  background-color: #4E6B1F;
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-  h1 {
-      font-size: 50px;
-  }
-
-  h2 {
-      font-size: 40px;
-  }
-
-  .namecard {
-      width: 90%;
-  }
-
-  .buttoncontainer {
-      flex-direction: column;
-  }
-
-  .techstackbuttonstyle {
-      width: 100%;
-      padding: 15px;
-  }
-}
-
-@media (max-width: 480px) {
-  h1 {
-      font-size: 30px;
-  }
-
-  h2 {
-      font-size: 30px;
-  }
-
-  .namecard {
-      height: auto;
-  }
-
-  .proglangcard {
-      height: auto;
-  }
-}

@@ -1,0 +1,29 @@
+.navbar {
+    display: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    background-color: #6B8E23;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex; 
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #4E6B1F;
+}

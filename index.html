@@ -2,49 +2,41 @@
 <html>
 <head>
     <title>Jason Pelagio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="navbar.css"/>
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="intro.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <meta name="navbar" content="Navigations links">
+    <div class="intro">
+        <h1 class="logo-header" >
+          <span class="logo">Jason </span><span class="logo">Pelagio</span><br>
+        </h1>
+    </div>
 </head>
 <body>
-
-<nav class="navbar">
-    <ul>
-        <li><a href="#about">About me</a></li>
-        <li><a href="contactme.html">Contact me</a></li>
-    </ul>
-</nav>
-
-<div class="container"> 
-    <h1>Welcome! <span class="autotype"></span></h1>
-</div>
-
-<script>
-    var typed = new Typed(".autotype", {
-        strings: ["To my website", "To my portfolio"],
-        typeSpeed: 90,
-        backSpeed: 50,
-        loop: true
-    });
-</script>
-
-<h2 id="about">About Me</h2>
-
-<div class="namecard">
-    <div class="namecardcontainer">
-        <h3><b>Jason Pelagio</b></h3>
-        <p>Aspiring Developer</p>
-        <p>An aspiring developer that is still learning about website development and android mobile development</p>
-        <img id="mypic" src="Images/jason.png" width="150" height="150">
-    </div>  
-</div>
-
-<div class="buttoncontainer">
-    <a href="techstack.html">
-        <button class="techstackbuttonstyle"> My Programming languages</button>
-    </a>
-</div>
-<h4> My certifications</h4>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About me</a></li>
+            <li><a href="techstack.html">Techstack</a></li>
+            <li><a href="contactme.html">Contact me</a></li>
+        </ul>
+    </nav>
+    <div class="container"> 
+        <div class="namecard">
+            <div class="namecardcontainer">
+                <h3><b>Jason Pelagio</b></h3>
+                <p>An Aspiring Developer</p>
+                <img id="mypic" src="Images/jason.png" width="150" height="150">
+                <h2>Welcome to my <span class="autotype"></span></h2>
+            </div>  
+       
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="intro.js"></script>
+    <script src="autotype.js"></script>
 </body>
 </html>

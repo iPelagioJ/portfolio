@@ -1,0 +1,63 @@
+h1 {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 40px; 
+    text-align: center; 
+  }
+  
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+  }
+  
+  p {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 16   px; 
+  }
+  
+  
+  
+  .container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px); 
+    background-color: #f5f5dc;
+    padding-top: 60px; 
+  }
+  
+  .namecard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%; 
+    border-radius: 5px;
+    background: #f8f8c5;
+    margin-bottom: 20px; 
+  }
+  
+  .namecardcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; 
+  }
+  
+  .autotype {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(197, 196, 107);
+  }
+  
+  #mypic {
+    border-radius: 50%; 
+    object-fit: cover; 
+    width: 150px; 
+    height: 150px; 
+  }
+  
+  .spacer {
+    height: 30vh; 
+  }
+  
