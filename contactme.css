@@ -9,13 +9,13 @@ body {
 }
 
 h1 {
-    text-align: center; 
-    margin: 20px 0; 
-    position: relative; 
-    z-index: 1; 
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+    z-index: 1;
     margin-top: 20px;
 }
-  
+
 .contact-wrapper {
     display: flex;
     flex-direction: column;
@@ -25,8 +25,7 @@ h1 {
     text-align: center;
     z-index: 1;
     position: relative;
-  }
-  
+}
 
 .contact-info {
     position: relative;
@@ -38,30 +37,30 @@ h1 {
 .icon-container {
     display: flex;
     justify-content: center;
-    gap: 40px; 
-    flex-wrap: wrap; 
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
 .icon {
     position: relative;
-    width: 60px; 
-    height: 60px; 
-    transition: transform 0.3s; 
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s;
 }
 
 .icon img {
-    width: 100%; 
-    height: auto; 
+    width: 100%;
+    height: auto;
 }
 
 .icon-text {
     display: none;
     position: absolute;
-    bottom: -30px; 
+    bottom: -30px;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 16px; 
-    color: #333; 
+    font-size: 16px;
+    color: #333;
 }
 
 .icon:hover {
@@ -69,37 +68,36 @@ h1 {
 }
 
 .icon-container:hover .icon-text {
-    display: block; 
+    display: block;
 }
-
 
 @media (max-width: 768px) {
     .icon-container {
-        gap: 20px; 
+        gap: 20px;
     }
 
     .icon {
-        width: 50px; 
-        height: 50px; 
+        width: 50px;
+        height: 50px;
     }
 
     .icon-text {
-        font-size: 14px; 
+        font-size: 14px;
     }
 }
 
 @media (max-width: 480px) {
     .icon-container {
-        flex-direction: column; 
-        align-items: center; 
+        flex-direction: column;
+        align-items: center;
     }
 
     .icon {
-        width: 40px; 
-        height: 40px; 
+        width: 40px;
+        height: 40px;
     }
 
     .icon-text {
-        font-size: 12px; 
+        font-size: 12px;
     }
 }

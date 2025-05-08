@@ -51,8 +51,7 @@ body {
   transform: scale(0) rotate(0deg) translate(-50%, -50%);
   animation: cube 3s ease-in forwards infinite;
 }
-undefined
-.background li:nth-child(0) {
+undefined .background li:nth-child(0) {
   animation-delay: 0s;
   left: 17vw;
   top: 35vh;
@@ -307,6 +306,3 @@ undefined
   left: 79vw;
   top: 75vh;
 }
-
-
-
