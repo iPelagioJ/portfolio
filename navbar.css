@@ -17,13 +17,22 @@
 }
 
 .navbar a {
-    color: white;
+    color: rgba(28, 37, 9, 0.7); 
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
+    transition: color 0.3s ease; /
 }
 
+
+.navbar a.active {
+    color: #fff; 
+    font-weight: bold; 
+}
+
+
 .navbar a:hover {
-    background-color: rgba(78, 107, 31, 0.7); 
+    color: #fff; 
+    background-color: transparent; 
 }
