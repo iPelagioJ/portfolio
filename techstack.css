@@ -41,7 +41,7 @@ h1 {
 .image-container {
     width: 15%; 
     max-width: 90px; 
-    height: auto; 
+    height: 100px; 
     display: flex;
     flex-direction: column; 
     justify-content: center;
@@ -57,7 +57,9 @@ h1 {
 }
 
 .language-image {
-    max-width: 100%;
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain; 
     transition: opacity 0.3s; 
 }
 
@@ -86,8 +88,6 @@ h1 {
     color: black; 
 }
 
-
-
 @media (max-width: 768px) {
     h1 {
         font-size: 2em; 
@@ -99,6 +99,11 @@ h1 {
 
     .image-container {
         width: 30%; 
+        height: 80px; 
+    }
+
+    .language-image {
+        height: 100%; 
     }
 }
 
@@ -113,5 +118,10 @@ h1 {
 
     .image-container {
         width: 40%; 
+        height: 60px;
+    }
+
+    .language-image {
+        height: 100%; 
     }
 }
