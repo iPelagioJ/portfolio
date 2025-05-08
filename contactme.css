@@ -1,6 +1,11 @@
 body {
-    margin: 0; 
-    padding-top: 60px; /
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 60px;
+    flex-direction: column;
 }
 
 h1 {
@@ -9,4 +14,92 @@ h1 {
     position: relative; 
     z-index: 1; 
     margin-top: 20px;
+}
+  
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+  }
+  
+
+.contact-info {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+    flex-wrap: wrap; 
+}
+
+.icon {
+    position: relative;
+    width: 60px; 
+    height: 60px; 
+    transition: transform 0.3s; 
+}
+
+.icon img {
+    width: 100%; 
+    height: auto; 
+}
+
+.icon-text {
+    display: none;
+    position: absolute;
+    bottom: -30px; 
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px; 
+    color: #333; 
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.icon-container:hover .icon-text {
+    display: block; 
+}
+
+
+@media (max-width: 768px) {
+    .icon-container {
+        gap: 20px; 
+    }
+
+    .icon {
+        width: 50px; 
+        height: 50px; 
+    }
+
+    .icon-text {
+        font-size: 14px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .icon-container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .icon {
+        width: 40px; 
+        height: 40px; 
+    }
+
+    .icon-text {
+        font-size: 12px; 
+    }
 }

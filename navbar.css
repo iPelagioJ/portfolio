@@ -19,7 +19,7 @@
 .navbar a {
     color: rgba(28, 37, 9, 0.7); 
     text-decoration: none;
-    padding: 15px;
+    padding: 20px 15px;
     display: block;
     text-align: center;
     transition: color 0.3s ease; /
