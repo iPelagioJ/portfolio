@@ -1,5 +1,5 @@
 .navbar {
-    display: hidden;
+    display: block; 
     position: fixed;
     top: 0;
     width: 100%;
@@ -8,7 +8,7 @@
 
 .navbar ul {
     list-style: none;
-    background-color: #6B8E23;
+    background-color: rgba(107, 142, 35, 0.7); 
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -25,5 +25,5 @@
 }
 
 .navbar a:hover {
-    background-color: #4E6B1F;
+    background-color: rgba(78, 107, 31, 0.7); 
 }
