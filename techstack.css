@@ -8,7 +8,6 @@ h1 {
     margin: 20px 0;
     position: relative;
     z-index: 1;
-    margin-top: 20px;
     font-size: 2.5em;
 }
 
@@ -30,7 +29,7 @@ h1 {
 .proglangcontainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
     gap: 2rem;
     position: relative;
@@ -41,7 +40,6 @@ h1 {
 .image-container {
     width: 15%;
     max-width: 90px;
-    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,41 +51,22 @@ h1 {
     position: relative;
     z-index: 1;
     margin-top: 20px;
-    overflow: hidden;
 }
 
 .language-image {
     width: 100%;
-    height: 100%;
+    height: auto; 
     object-fit: contain;
-    transition: opacity 0.3s;
 }
 
-.content {
-    width: 100%;
-    text-align: center;
-    margin-top: 10px;
-    opacity: 0;
-    transition: opacity 0.6s;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.image-container:hover .language-image {
-    opacity: 0;
-}
-
-.image-container:hover .content {
-    opacity: 1;
-}
-
-.content h2 {
-    font-size: 20px;
+h2 {
+    font-size: 16px;
     color: black;
     font-weight: 450;
+    margin-top: 10px; 
+    text-align: center; 
 }
+
 
 @media (max-width: 768px) {
     h1 {
@@ -100,11 +79,10 @@ h1 {
 
     .image-container {
         width: 30%;
-        height: 80px;
     }
 
-    .language-image {
-        height: 100%;
+    h2 {
+        font-size: 14px; 
     }
 }
 
@@ -119,10 +97,9 @@ h1 {
 
     .image-container {
         width: 40%;
-        height: 60px;
     }
 
-    .language-image {
-        height: 100%;
+    h2 {
+        font-size: 12px; 
     }
 }
