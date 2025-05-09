@@ -1,3 +1,17 @@
+body {
+    margin: 0;
+    padding-top: 60px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px); 
+    background-color: #f5f5dc;
+    position: relative;
+    z-index: 2;
+}
 .footer {
     background-color: rgba(107, 142, 35, 0.7);
     padding: 5px 0;
@@ -8,11 +22,14 @@
     width: 100%;
     height: auto;
     min-height: 40px;
+    z-index: 10;
 }
 .footer-content {
     display: flex;
     justify-content: center;
     gap: 10px;
+    align-items: center;
+    width: 100%;
 }
 .footer-icon img {
     width: 40px;
