@@ -1,56 +1,57 @@
 h1 {
-  font-family: "Montserrat", sans-serif;
-  color: rgb(0, 0, 0);
-  font-size: 40px;
-  text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
 }
 
 h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
-  font-weight: 350;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 350;
 }
 
 p {
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: calc(100vh - 60px);
-  background-color: #f5f5dc;
-  padding-top: 60px;
-  position: relative;
-  z-index: 2;
+.indexcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px);
+    background-color: transparent;
+    padding-top: 60px;
+    position: relative;
+    z-index: 2;
 }
 
 .namecardcontainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  position: relative;
-  z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    z-index: 2;
 }
 
 .autotype {
-  font-family: "Montserrat", sans-serif;
-  color: rgb(197, 196, 107);
+    font-family: "Montserrat", sans-serif;
+    color: rgb(197, 196, 107);
 }
 
 #mypic {
-  border-radius: 50%;
-  object-fit: cover;
-  width: 150px;
-  height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
 }
 
 .spacer {
-  height: 30vh;
+    height: 30vh;
 }

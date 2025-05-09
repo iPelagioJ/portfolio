@@ -1,16 +1,8 @@
-body {
-    background-color: #f5f5dc;
-    margin: 0;
-    padding-top: 60px;
-    font-size: 16px;
-}
-
 h1 {
     text-align: center;
     margin: 40px 0;
     font-size: 3.5em;
     position: relative;
-    z-index: 1;
     font-weight: 400;
 }
 
@@ -32,7 +24,6 @@ h2 {
     flex: 0 0 60%;
     margin: 0 10px 50px;
     position: relative;
-    z-index: 1;
     padding: 10px;
     background-color: rgba(106, 142, 35, 0.6);
     border-radius: 8px;

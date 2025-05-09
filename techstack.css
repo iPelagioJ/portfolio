@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding-top: 60px;
     position: relative;
-    z-index: 1;
 }
 
 h1 {
@@ -10,7 +9,6 @@ h1 {
     margin: 20px 0;
     font-size: 1.5em;
     position: relative;
-    z-index: 2;
 }
 
 .techstack-wrapper {
@@ -19,7 +17,6 @@ h1 {
     justify-content: center;
     gap: 40px;
     position: relative;
-    z-index: 2;
 }
 
 .proglangcard {
@@ -34,14 +31,14 @@ h1 {
     align-items: center;
     padding: 20px;
     position: relative;
-    z-index: 2;
     transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    background-color: rgba(106, 142, 35, 0.6);
 }
 
 .proglangcard:hover {
     transform: scale(1.02);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
-    background-color: rgba(255, 255, 255, 0.05); 
+    background-color: rgba(255, 255, 255, 0.05);
     cursor: pointer;
 }
 .proglangcard:hover .image-container {
@@ -60,7 +57,6 @@ h1 {
     gap: 2rem;
     width: 100%;
     position: relative;
-    z-index: 2;
 }
 
 .image-container {
@@ -77,8 +73,8 @@ h1 {
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
     position: relative;
-    z-index: 2;
     width: 110px;
+    background-color: rgba(106, 142, 35, 0.6);
 }
 
 .language-image {
@@ -97,5 +93,4 @@ h2 {
     word-wrap: break-word;
     max-width: 100%;
     position: relative;
-    z-index: 2;
 }
