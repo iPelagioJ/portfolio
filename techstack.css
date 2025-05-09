@@ -1,105 +1,100 @@
 body {
     margin: 0;
     padding-top: 60px;
+    position: relative;
+    z-index: 1;
 }
 
 h1 {
     text-align: center;
     margin: 20px 0;
+    font-size: 1.5em;
     position: relative;
-    z-index: 1;
-    font-size: 2.5em;
+    z-index: 2;
+}
+
+.techstack-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+    z-index: 2;
 }
 
 .proglangcard {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s;
-    width: 90%;
-    max-width: 600px;
+    flex: 1 1 400px;
+    max-width: 500px;
+    min-width: 300px;
+    background: none;
     border-radius: 5px;
-    background: rgba(248, 248, 197, 0);
-    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
     position: relative;
-    z-index: 1;
+    z-index: 2;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.proglangcard:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 255, 0.05); 
+    cursor: pointer;
+}
+.proglangcard:hover .image-container {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+.proglangcard:hover h2 {
+    color: #333;
+    font-weight: 600;
 }
 
 .proglangcontainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
-    align-items: center;
+    justify-content: center;
     gap: 2rem;
+    width: 100%;
     position: relative;
-    z-index: 1;
-    margin: 20px;
+    z-index: 2;
 }
 
 .image-container {
-    width: 15%;
+    flex: 1 1 80px;
     max-width: 90px;
+    height: 140px;
+    margin-top: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 197, 0);
-    border: 1px solid rgba(248, 248, 197, 0);
+    justify-content: space-between;
     border-radius: 5px;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
     position: relative;
-    z-index: 1;
-    margin-top: 20px;
+    z-index: 2;
 }
 
 .language-image {
     width: 100%;
-    height: auto; 
+    height: 50px;
     object-fit: contain;
 }
 
 h2 {
     font-size: 16px;
     color: black;
-    font-weight: 450;
-    margin-top: 10px; 
-    text-align: center; 
-}
-
-
-@media (max-width: 768px) {
-    h1 {
-        font-size: 2em;
-    }
-
-    .proglangcard {
-        padding: 15px;
-    }
-
-    .image-container {
-        width: 30%;
-    }
-
-    h2 {
-        font-size: 14px; 
-    }
-}
-
-@media (max-width: 480px) {
-    h1 {
-        font-size: 1.5em;
-    }
-
-    .proglangcard {
-        padding: 10px;
-    }
-
-    .image-container {
-        width: 40%;
-    }
-
-    h2 {
-        font-size: 12px; 
-    }
+    font-weight: 500;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 1.2;
+    word-wrap: break-word;
+    max-width: 100%;
+    position: relative;
+    z-index: 2;
 }
