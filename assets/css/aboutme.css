@@ -12,6 +12,10 @@ h2 {
     font-size: 1.8em;
     font-weight: 300;
 }
+p{
+    text-align: justify;
+    
+}
 
 .aboutme-wrapper {
     display: flex;
@@ -33,10 +37,7 @@ h2 {
     transition: background-color 0.3s, transform 0.3s;
 }
 
-.aboutme-content:hover {
-    background-color: rgba(106, 142, 35, 0.8);
-    transform: scale(1.05);
-}
+
 
 @media (max-width: 768px) {
     .aboutme-wrapper {

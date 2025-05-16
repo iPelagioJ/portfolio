@@ -7,9 +7,11 @@ body {
 h1 {
     text-align: center;
     margin: 20px 0;
-    font-size: 1.5em;
+    font-size: 3.5em;
     position: relative;
+    font-weight: 400;
 }
+
 
 .techstack-wrapper {
     display: flex;
@@ -35,20 +37,7 @@ h1 {
     background-color: rgba(106, 142, 35, 0.6);
 }
 
-.proglangcard:hover {
-    transform: scale(1.02);
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
-    background-color: rgba(106, 142, 35, 0.8);
-    cursor: pointer;
-}
-.proglangcard:hover .image-container {
-    transform: scale(1.05);
-    transition: transform 0.3s;
-}
-.proglangcard:hover h2 {
-    color: #333;
-    font-weight: 600;
-}
+
 
 .proglangcontainer {
     display: flex;
